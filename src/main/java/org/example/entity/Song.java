@@ -6,6 +6,16 @@ public class Song {
     private String artist;
     private String title;
 
+    private Integer year;
+
+    public Integer getYear() {
+        return year;
+    }
+
+    public void setYear(Integer year) {
+        this.year = year;
+    }
+
     public String getId() {
         return id;
     }
