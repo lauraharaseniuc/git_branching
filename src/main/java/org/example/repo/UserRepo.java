@@ -11,4 +11,8 @@ public class UserRepo {
         users.add(user);
         return user;
     }
+
+    public void deleteUser(User user) {
+        users.removeIf(u -> u == user);
+    }
 }
