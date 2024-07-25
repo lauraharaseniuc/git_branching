@@ -3,5 +3,7 @@ package org.example;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Sa zicem ca este ceva initial in proiect ...");
+        System.out.println("Commit1");
+        System.out.println("Commit2");
     }
 }
